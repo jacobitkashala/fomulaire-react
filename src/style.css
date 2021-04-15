@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.conteneur {
+    height: 90%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title {
+    background-color: #0084e6;
+    height: 200px;
+    box-shadow: 6px 6px 6px #d5d5d5;
+}
+.title>h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    padding-left: 50px;
+    padding-top: 50px;
+    color: #ffffff;
+    /* text-align: center; */
+}
+.conteneur-form {
+    box-sizing: border-box;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-left{
+	width: 40%;
+	display: inline-block;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+    border: 1px #0084e6 solid;
+    box-shadow: 3px 3px 3px #d5d5d5;
+    /*margin-top:20px; */
+
+
+}
+
+.form-right {
+    width: 60%;
+	display: inline-block;
+	vertical-align: 10%;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+    border: 1px #0084e6 solid;
+    box-shadow: 3px 3px 3px #d5d5d5;
+}
+
+label,
+input[type="text"],
+select,
+textarea {
+    display: block;
+    width: 90%;
+    /* height: 50%; */
+    padding: 15px 0px 15px 0px;
+    color: #0084e6;
+    font-size: 2rem;
+}
+
+input,
+select,
+textarea {
+  
+    border: #0084e6 0.5px solid;
+    border-radius: 15px;
+    outline: none;
+}
+.grpbt {
+    display: flex;
+    flex-direction: row;
+    gap: 30px 30px;
+    margin: 10px 10px;
+}
+.grpbt button {
+    height: 60px;
+    width: 33%;
+    border-radius: 15px;
+    border: none;
+    font-size: 2rem;
+    /* vertical-align: center; */
+}
+#btn-creer {
+    outline: none;
+    background-color: #0084e6;
+}
+
+#btn-reinit {
+    outline: none;
+    background-color: #f9515a;
+}
+
+.form-left form>p,
+.form-right form>p {
+    height: 90px;
+    color: #ffffff;
+    font-size: 2rem;
+    background-color: #0084e6;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+td{
+    font-size:3rem;
+    border: 2px solid #000 
+}
